@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "id",
+    "name",
+    "releaseDate",
+    "reviewScore",
+    "category",
+    "rating"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "default": 0,
+      "title": "The id Schema",
+      "examples": [
+        2
+      ]
+    },
+    "name": {
+      "type": "string",
+      "default": "",
+      "title": "The name Schema",
+      "examples": [
+        "Gran Turismo 3"
+      ]
+    },
+    "releaseDate": {
+      "type": "string",
+      "default": "",
+      "title": "The releaseDate Schema",
+      "examples": [
+        "2001-03-10 23:59:59"
+      ]
+    },
+    "reviewScore": {
+      "type": "integer",
+      "default": 0,
+      "title": "The reviewScore Schema",
+      "examples": [
+        91
+      ]
+    },
+    "category": {
+      "type": "string",
+      "default": "",
+      "title": "The category Schema",
+      "examples": [
+        "Driving"
+      ]
+    },
+    "rating": {
+      "type": "string",
+      "default": "",
+      "title": "The rating Schema",
+      "examples": [
+        "Universal"
+      ]
+    }
+  },
+  "examples": [{
+    "id": 2,
+    "name": "Gran Turismo 3",
+    "releaseDate": "2001-03-10 23:59:59",
+    "reviewScore": 91,
+    "category": "Driving",
+    "rating": "Universal"
+  }]
+}
